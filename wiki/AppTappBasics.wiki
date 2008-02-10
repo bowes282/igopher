@@ -34,7 +34,15 @@ At this point, you have the choice to leave everything as is, for example if you
 
 Then good luck. For now, you are basically on your own - see the big warning in the project home page? ;-)
 
-Don't panic though, most problems won't need anything special from your part.
+Don't panic though, most problems won't need anything special from your part, it will typically be a non-existing zip file (faulty remote repository), a bad USB connection, or a problem while using the AppTapp Installer.
+
+A few important remarks:
+
+  * Don't forget to refresh the repositories in Gopher, it won't do it automatically for you (menu Repositories / Refresh).
+  * If you are lost, try to restore the normal mode: iPod menu, Restore Sources. If it tells you OK, or that there is nothing to restore, you're most probably fine.
+  * If you can't connect to the iPod, for example you do a iPod / Get Version and you have the reply "Couldn't find user on iPod device.", check the cable, that iTunes is correctly installed and so on. Try to restart the program.
+
+A log is kept in the program directory, it may help finding out what the problem is.
 
 Note that a backup of the current LocalPackages.plist is made *before each export* in the backup directory on your PC, just where the Gopher.exe program is located. And it is very unlickely that your original LocalPackages.plist file has been destroyed on your iPod.
 
